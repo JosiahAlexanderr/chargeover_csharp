@@ -150,6 +150,11 @@ namespace ChargeOver.Wrapper.Models
 		[JsonProperty("paycycle")]
 		public string PayCycle { get; set; }
 		/// <summary>
+		/// Coupon
+		/// </summary>
+		[JsonProperty("coupon")]
+		public string Coupon { get; set; }
+		/// <summary>
 		/// Custom field value #1
 		/// </summary>
 		[JsonProperty("custom_1")]
